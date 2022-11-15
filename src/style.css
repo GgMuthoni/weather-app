@@ -1,0 +1,90 @@
+body {
+  font-family: arial, sans-serif;
+}
+.app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 550px;
+}
+.city-form {
+  margin-bottom: 20px;
+}
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+.town {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.load {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+h2 {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+}
+p {
+  text-transform: capitalize;
+}
+ul {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.cloudy-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  font-weight: 170;
+  line-height: 1;
+  position: relative;
+}
+.units {
+  position: relative;
+  top: -30px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  border: #6c757d;
+  position: relative;
+  bottom: 27px;
+  left: 85px;
+}
+.info {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 80%;
+  max-width: 50%;
+  top: -60px;
+  right: -350px;
+}
